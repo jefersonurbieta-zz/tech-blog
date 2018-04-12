@@ -1,5 +1,5 @@
 {
-    "name": "az-tech-blog",
+    "name": "tech-blog",
     "description": "The Ghost company blog theme which runs on blog.ghost.org and dev.ghost.org",
     "version": "1.0.0",
     "engines": {
@@ -18,6 +18,10 @@
             "url": "https://ghost.org"
         }
     ],
+    "scripts": {
+        "zip": "gulp zip",
+        "watch": "gulp watch"
+    },
     "gpm": {
         "type": "theme",
         "categories": [

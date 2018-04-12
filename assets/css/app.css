@@ -1591,3 +1591,7 @@
 .post-full-content a.gh-btn-group .post-full-content a.gh-btn span {
     font-size: 1.4rem
 }
+
+.author-name {
+    text-transform: capitalize;
+}
