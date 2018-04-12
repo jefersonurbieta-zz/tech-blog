@@ -1,0 +1,22 @@
+{{!-- The footer at the very bottom of the screen --}}
+<footer class="site-footer outer">
+    <div class="site-footer-content inner">
+        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+        <nav class="site-footer-nav">
+            <a href="{{@blog.url}}">Últimos posts</a>
+            <a href="http://www.azi.com.br/" target="_blank" rel="noopener">AZ Informática</a>
+            <div class="social-links">
+                {{#if @blog.facebook}}
+                    <a class="social-link social-link-fb" href="{{facebook_url @blog.facebook}}" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
+                {{/if}}
+                {{#if @blog.twitter}}
+                    <a class="social-link social-link-tw" href="{{twitter_url @blog.twitter}}" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
+                {{/if}}
+                {{#if @labs.subscribers}}
+                    <a class="social-link subscribe-button" href="#subscribe" title="Se Inscrever!">{{> "icons/subscribe"}}</a>
+                {{/if}}
+                <a class="social-link" href="/" target="_blank" rel="noopener" title="Quero publicar!">{{> "icons/idea"}}</a>
+            </div>
+        </nav>
+    </div>
+</footer>

@@ -1,0 +1,17 @@
+@import "app.css";
+
+/* Add a margin top for the ghost mobile header */
+@media (max-width: 660px) {
+    .site-header {
+        margin-top: 40px;
+    }
+
+    .post-template .site-main,
+    .page-template .site-main {
+        margin-top: 40px;
+    }
+
+    .error-template .site-main {
+        margin-top: 40px;
+    }
+}
