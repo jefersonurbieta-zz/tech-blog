@@ -8,13 +8,13 @@
     "license": "MIT",
     "author": {
         "name": "Jeferson Urbieta",
-        "email": "jeferson.urbieta@gmail.om",
+        "email": "jeferson.urbieta@gmail.com",
         "url": "https://ghost.org"
     },
     "contributors": [
         {
             "name": "Thalita Oliveira",
-            "email": "thalitaoliveira@gmail.om",
+            "email": "thalitaribeirooliveira@gmail.com",
             "url": "https://ghost.org"
         }
     ],
@@ -41,7 +41,7 @@
     "devDependencies": {
         "autoprefixer": "6.3.6",
         "cssnano": "3.7.1",
-        "gulp": "3.9.1",
+        "gulp": "^3.9.1",
         "gulp-livereload": "3.8.1",
         "gulp-nodemon": "2.1.0",
         "gulp-postcss": "6.1.1",
