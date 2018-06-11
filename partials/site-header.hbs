@@ -3,12 +3,11 @@
         <div class="gh-navbar-left">
             <a class="gh-nav-logo gh-navbar-item" href="/">
                 <div class="gh-nav-logo-suffix">
-                    <!--{{#if @blog.logo}}-->
-                        <!--<img class="site-logo" src="{{@blog.logo}}" alt="{{@blog.title}}"/>-->
-                    <!--{{else}}-->
-                        <!--{{@blog.title}}-->
-                    <!--{{/if}}-->
-                    <br><br>
+                    {{#if @blog.logo}}
+                        <img class="site-logo" src="{{@blog.logo}}" alt="{{@blog.title}}"/>
+                    {{else}}
+                        {{@blog.title}}
+                    {{/if}}
                 </div>
             </a>
         </div>
